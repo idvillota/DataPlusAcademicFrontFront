@@ -16,7 +16,7 @@ export class LoginComponent{
     mouseoverLogin
 
     constructor(private authService:AuthService, private router:Router){
-
+        console.log('loging.component constructor')
     }
 
     login(formValues){
